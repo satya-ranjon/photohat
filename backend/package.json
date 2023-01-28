@@ -1,0 +1,36 @@
+{
+  "name": "photohut",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Satya Ranjan <k15981598k@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@asbjorn/eslint-plugin-groq": "^2.0.0",
+    "@sanity/base": "^2.28.2",
+    "@sanity/core": "^2.28.1",
+    "@sanity/default-layout": "^2.28.2",
+    "@sanity/default-login": "^2.28.2",
+    "@sanity/desk-tool": "^2.28.2",
+    "@sanity/eslint-config-studio": "^2.0.0",
+    "@sanity/vision": "^2.28.2",
+    "groq": "^2.15.0",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "react-icons": "^4.3.1",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-plugin-react": "^7.29.4"
+  }
+}

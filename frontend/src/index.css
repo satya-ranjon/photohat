@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Yellowtail&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Loto", sans-serif;
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.hide_scrollbar::-webkit-scrollbar {
+  display: none;
+  overflow: hidden;
+}
+#category {
+  overflow: hidden;
+}
